@@ -5,22 +5,22 @@
                 <tr>
                     <td width = "150px">Judul Buku</td>
                     <td width = "2px">:</td>
-                    <td>{{ $buku->judul }}</td>
+                    <td>{{ $buku->Judul }}</td>
                 </tr>
                 <tr>
                     <td>Pengarang</td>
                     <td>:</td>
-                    <td>{{ $buku->pengarang }}</td>
+                    <td>{{ $buku->Pengarang }}</td>
                 </tr>
                 <tr>
                     <td>Tahun Terbit</td>
                     <td>:</td>
-                    <td>{{ $buku->tahun_terbit }}</td>
+                    <td>{{ $buku->Tahun_terbit }}</td>
                 </tr>
                 <tr>
                     <td>Penerbit</td>
                     <td>:</td>
-                    <td>{{ $buku->penerbit->nama_penerbit }}</td>
+                    <td>{{ $buku->penerbit->name_penerbit }}</td>
                 </tr>
                 <tr>
                     <td>Kategori</td>

@@ -17,9 +17,9 @@
                 @foreach ($allBuku as $key => $r )
                 <tr>
                     <td>{{ $key + 1 }}</td>
-                    <td>{{ $r->judul }}</td>
-                    <td>{{ $r->pengarang }}</td>
-                    <td>{{ $r->tahun_terbit }}</td>
+                    <td>{{ $r->Judul }}</td>
+                    <td>{{ $r->Pengarang }}</td>
+                    <td>{{ $r->Tahun_terbit }}</td>
                     <td>{{ $r->penerbit->name_penerbit }}</td>
                     <td>{{ $r->kategori -> nama_kategori }}</td>
                     <td>
